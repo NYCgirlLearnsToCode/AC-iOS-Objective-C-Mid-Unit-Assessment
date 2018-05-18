@@ -14,7 +14,8 @@
 		571A1AC520AB5DCA00624059 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 571A1AC420AB5DCA00624059 /* main.m */; };
 		571A1ACF20AB5DCA00624059 /* CrayonsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 571A1ACE20AB5DCA00624059 /* CrayonsTests.m */; };
 		571A1ADB20AB74DA00624059 /* Crayon.m in Sources */ = {isa = PBXBuildFile; fileRef = 571A1ADA20AB74DA00624059 /* Crayon.m */; };
-		57D486A820ADE9560052E870 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D486A720ADE9560052E870 /* ViewController.m */; };
+		D274CF8520AF29F900B7B2FD /* myViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D274CF8420AF29F900B7B2FD /* myViewController.m */; };
+		D274CF8820AF3E6C00B7B2FD /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D274CF8720AF3E6C00B7B2FD /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +42,10 @@
 		571A1AD020AB5DCA00624059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		571A1AD920AB749E00624059 /* Crayon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Crayon.h; sourceTree = "<group>"; };
 		571A1ADA20AB74DA00624059 /* Crayon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Crayon.m; sourceTree = "<group>"; };
-		57D486A620ADE9560052E870 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		57D486A720ADE9560052E870 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D274CF8320AF29F900B7B2FD /* myViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myViewController.h; sourceTree = "<group>"; };
+		D274CF8420AF29F900B7B2FD /* myViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myViewController.m; sourceTree = "<group>"; };
+		D274CF8620AF3E6C00B7B2FD /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = Crayons/Controllers/DetailViewController.h; sourceTree = SOURCE_ROOT; };
+		D274CF8720AF3E6C00B7B2FD /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = Crayons/Controllers/DetailViewController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,8 +117,8 @@
 		57D486AA20ADEB990052E870 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				57D486A620ADE9560052E870 /* ViewController.h */,
-				57D486A720ADE9560052E870 /* ViewController.m */,
+				D274CF8320AF29F900B7B2FD /* myViewController.h */,
+				D274CF8420AF29F900B7B2FD /* myViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -126,6 +129,8 @@
 				571A1AB520AB5DC900624059 /* AppDelegate.h */,
 				571A1AB620AB5DC900624059 /* AppDelegate.m */,
 				571A1ABB20AB5DC900624059 /* Main.storyboard */,
+				D274CF8620AF3E6C00B7B2FD /* DetailViewController.h */,
+				D274CF8720AF3E6C00B7B2FD /* DetailViewController.m */,
 				571A1ABE20AB5DCA00624059 /* Assets.xcassets */,
 				571A1AC020AB5DCA00624059 /* LaunchScreen.storyboard */,
 				571A1AC420AB5DCA00624059 /* main.m */,
@@ -240,9 +245,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D274CF8820AF3E6C00B7B2FD /* DetailViewController.m in Sources */,
 				571A1AC520AB5DCA00624059 /* main.m in Sources */,
 				571A1AB720AB5DC900624059 /* AppDelegate.m in Sources */,
-				57D486A820ADE9560052E870 /* ViewController.m in Sources */,
+				D274CF8520AF29F900B7B2FD /* myViewController.m in Sources */,
 				571A1ADB20AB74DA00624059 /* Crayon.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

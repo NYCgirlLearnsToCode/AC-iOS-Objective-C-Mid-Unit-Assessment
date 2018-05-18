@@ -6,16 +6,21 @@
 //  Copyright © 2018 Alex Paul. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "myViewController.h"
 
-@interface ViewController ()
+@interface myViewController ()
 
 @end
 
-@implementation ViewController
+@implementation myViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self setBackground];
+}
+
+-(void)setBackground {
+    self.view.backgroundColor = UIColor.cyanColor;
 }
 
 @end
